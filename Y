@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Engineer Jemal Abrahim Mohammed | Tech Portfolio</title>
+
+<style>
+* { box-sizing: border-box; }
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 30px;
+  background: linear-gradient(135deg, #f2f2f2, #ffffff);
+  color: #333;
+  text-align: center;
+}
+
+body.dark {
+  background: #0f172a;
+  color: #e5e7eb;
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
+  color: inherit;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.dark-btn {
+  background: #1f2933;
+  color: #fff;
+}
+
+body.dark .dark-btn {
+  background: #e5e7eb;
+  color: #0f172a;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.card {
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 20px;
+  width: 420px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+body.dark .card {
+  background: #1e293b;
+}
+
+img {
+  width: 180px;
+  border-radius: 50%;
+  border: 4px solid #1f2933;
+}
+
+h1, h2, h3 {
+  margin-top: 20px;
+}
+
+p {
+  font-size: 17px;
+  line-height: 1.6;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 15px;
+}
+
+.skill {
+  background: #d1d5db;
+  border-radius: 10px;
+  height: 20px;
+  overflow: hidden;
+}
+
+.skill-bar {
+  background: linear-gradient(90deg, #2563eb, #06b6d4);
+  height: 100%;
+  width: 0%;
+  color: #fff;
+  font-size: 14px;
+  line-height: 20px;
+  transition: width 1.5s;
+}
+
+a {
+  color: #38bdf8;
+  word-break: break-all;
+}
+
+.cv-btn {
+  background: linear-gradient(90deg, #2563eb, #06b6d4);
+  color: #fff;
+  font-weight: bold;
+}
+
+input, textarea {
+  border: 1px solid #ccc;
+}
+
+@media (max-width: 600px) {
+  .card {
+    width: 100%;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<button class="dark-btn" onclick="toggleDarkMode()">🌙 Dark Mode</button>
+
+<nav>
+  <a href="#about">About</a> |
+  <a href="#skills">Skills</a> |
+  <a href="#tech">Tech Focus</a> |
+  <a href="#projects">Projects</a> |
+  <a href="#education">Education</a> |
+  <a href="#contact">Contact</a> |
+  <a href="#comments">Comments</a>
+</nav>
+
+<div class="container">
+<div class="card">
+
+<img src="images/jemal.jpg" alt="Engineer Jemal Abrahim Mohammed">
+
+<h1 id="about">Engineer Jemal Abrahim Mohammed</h1>
+<p><strong>Mining Engineering Student | Software Developer | AI Enthusiast | Technology Innovator</strong></p>
+
+<p>
+I am a multidisciplinary engineering student with deep interests in Mining Engineering,
+Software Development, Artificial Intelligence, and emerging technologies.
+My vision is to become a future innovator who combines engineering knowledge with software,
+AI, and modern technology to solve real-world problems.
+
+I believe the future belongs to engineers who think beyond a single discipline and build
+intelligent, scalable, and impactful solutions for society and industry.
+</p>
+
+<h2 id="skills">Core Skills</h2>
+
+<li>HTML
+  <div class="skill"><div class="skill-bar" style="width:100%">100%</div></div>
+</li>
+<li>CSS
+  <div class="skill"><div class="skill-bar" style="width:100%">100%</div></div>
+</li>
+<li>JavaScript
+  <div class="skill"><div class="skill-bar" style="width:100%">100%</div></div>
+</li>
+<li>Python
+  <div class="skill"><div class="skill-bar" style="width:100%">100%</div></div>
+</li>
+<li>Git & GitHub
+  <div class="skill"><div class="skill-bar" style="width:100%">100%</div></div>
+</li>
+
+<h2 id="tech">Technology Focus</h2>
+<ul>
+  <li>Software Development & Web Technologies</li>
+  <li>Artificial Intelligence & Machine Learning</li>
+  <li>Automation & Intelligent Systems</li>
+  <li>Engineering + Technology Integration</li>
+  <li>Innovation & Problem Solving</li>
+</ul>
+
+<h2 id="projects">Projects (Completed)</h2>
+<ul>
+  <li>Personal Portfolio Website</li>
+  <li>Simple Calculator (HTML + JavaScript)</li>
+  <li>Mini Quiz Application (JavaScript)</li>
+</ul>
+
+<h2>Future Projects & Vision</h2>
+<ul>
+  <li>AI-Driven Mining Optimization System</li>
+  <li>Smart Mineral Mapping Platform</li>
+  <li>Automation Tools for Engineering Workflows</li>
+  <li>Technology-Based Startup Projects</li>
+</ul>
+
+<h2 id="education">Education</h2>
+<p>
+BSc Student in Mining Engineering<br>
+Addis Ababa Science and Technology University (AASTU)
+</p>
+
+<h2 id="contact">Contact</h2>
+<p>📧 Personal: jemalabrahim666@gmail.com</p>
+<p>🏫 AASTU: jemal.abrahim@aastustudent.edu.et</p>
+<p>💬 WhatsApp: +251715562713</p>
+
+<p>
+🌐 Portfolio:<br>
+<a href="https://james7-cloud.github.io/engineer-jemal-portfolio/" target="_blank">
+https://james7-cloud.github.io/engineer-jemal-portfolio/
+</a>
+</p>
+
+<p>
+💻 GitHub Repository:<br>
+<a href="https://github.com/james7-cloud/engineer-jemal-portfolio" target="_blank">
+https://github.com/james7-cloud/engineer-jemal-portfolio
+</a>
+</p>
+
+<a href="files/Jemal_Elite_CV.pdf" download>
+  <button class="cv-btn">⬇ Download My Elite CV</button>
+</a>
+
+<!-- Comments / Feedback Section -->
+<h2 id="comments">Leave a Comment</h2>
+<p>Have feedback or want to connect? Leave your message below!</p>
+
+<form id="commentForm" style="max-width:400px; margin: 0 auto; text-align:left;">
+  <label for="name">Name:</label><br>
+  <input type="text" id="name" name="name" placeholder="Your name" required style="width:100%; padding:8px; margin:5px 0; border-radius:5px;"><br>
+
+  <label for="email">Email:</label><br>
+  <input type="email" id="email" name="email" placeholder="Your email" required style="width:100%; padding:8px; margin:5px 0; border-radius:5px;"><br>
+
+  <label for="message">Comment:</label><br>
+  <textarea id="message" name="message" placeholder="Your message" rows="5" required style="width:100%; padding:8px; margin:5px 0; border-radius:5px;"></textarea><br>
+
+  <button type="submit" style="background:#2563eb; color:white; padding:10px 15px; border:none; border-radius:8px; cursor:pointer;">
+    Submit Comment
+  </button>
+</form>
+
+<p id="commentSuccess" style="color:green; display:none; text-align:center; margin-top:10px;">
+  Thank you for your comment! ✨
+</p>
+
+<!-- Footer -->
+<footer style="margin-top:30px; font-size:14px; color:#555;">
+  <p>© 2026 Engineer Jemal Abrahim Mohammed | Email: jemal.abrahim@aastustudent.edu.et</p>
+</footer>
+
+</div>
+</div>
+
+<script>
+function toggleDarkMode() {
+  document.body.classList.toggle("dark");
+}
+
+window.onload = () => {
+  document.querySelectorAll(".skill-bar").forEach(bar => {
+    const w = bar.style.width;
+    bar.style.width = "0%";
+    setTimeout(() => bar.style.width = w, 500);
+  });
+
+  document.getElementById("commentForm").addEventListener("submit", function(e) {
+    e.preventDefault();
+    const name = document.getElementById("name").value;
+    const email = document.getElementById("email").value;
+    const message = document.getElementById("message").value;
+
+    console.log("New Comment Submitted:");
+    console.log("Name:", name);
+    console.log("Email:", email);
+    console.log("Message:", message);
+
+    document.getElementById("commentSuccess").style.display = "block";
+    this.reset();
+  });
+};
+</script>
+
+</body>
+</html>
