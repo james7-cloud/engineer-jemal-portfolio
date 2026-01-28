@@ -1,31 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Engineer Jemal Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Elite CV - Engineer Jemal Abrahim Mohammed</title>
+<style>
+body {font-family: Arial,sans-serif; background:#f4f4f4; color:#333; padding:20px;}
+.container {max-width:900px; margin:auto; background:#fff; padding:30px; border-radius:15px; box-shadow:0 6px 15px rgba(0,0,0,0.1);}
+header {text-align:center;}
+header img {width:150px; border-radius:50%; border:3px solid #333; margin-bottom:15px;}
+h1 {margin-bottom:5px;}
+h2 {margin-top:25px; color:#0066cc;}
+p, li {font-size:16px; line-height:1.5;}
+ul {padding-left:20px;}
+.skill {background:#f1f1f1; border-radius:10px; margin:10px 0; width:100%; height:20px; position:relative;}
+.skill-bar {background:#0066cc; height:100%; width:0%; border-radius:10px; text-align:right; color:#fff; padding-right:5px; line-height:20px; transition:width 1.5s;}
+a {color:#0066cc; text-decoration:none;}
+@media(max-width:600px){.container{padding:15px;}}
+</style>
 </head>
 <body>
+
+<div class="container">
   <header>
-    <h1>Engineer Jemal Abrahim</h1>
-    <p>Mining Engineering Student | Web Developer | Future Tech Entrepreneur</p>
+    <img src="images/jemal.jpg" alt="Engineer Jemal Abrahim Mohammed">
+    <h1>Engineer Jemal Abrahim Mohammed</h1>
+    <p>Aspiring Mining Engineer | Innovator | Web Developer</p>
+    <p>
+      Personal Email: <a href="mailto:jemalabrahim666@gmail.com">jemalabrahim666@gmail.com</a> | 
+      Business Email: <a href="mailto:jemal.abrahim@aastustudent.edu.et">jemal.abrahim@aastustudent.edu.et</a> | 
+      WhatsApp: <a href="https://wa.me/251715562713" target="_blank">+251715562713</a>
+    </p>
+    <p>Portfolio: <a href="#">Your Portfolio Link</a> | GitHub: <a href="#">GitHub Link</a> | LinkedIn: <a href="#">LinkedIn Link</a></p>
   </header>
 
-  <section id="about">
-    <h2>About Me</h2>
-    <p>I am a mining engineering student at AASTU. I am learning HTML, CSS, and JavaScript.</p>
-  </section>
+  <h2>Professional Summary</h2>
+  <p>
+    Dedicated BSc Mining Engineering student at Addis Ababa Science and Technology University (AASTU) with strong skills in HTML, CSS, and JavaScript.  
+    Passionate about innovation, problem-solving, and developing technology-driven solutions for the mining industry.  
+    Seeking opportunities to combine engineering expertise and modern web development skills to make a tangible impact.
+  </p>
 
-  <section id="projects">
-    <h2>Projects</h2>
-    <p>Coming soon...</p>
-  </section>
+  <h2>Skills</h2>
+  <ul>
+    <li>HTML <div class="skill"><div class="skill-bar" style="width:100%">100%</div></div></li>
+    <li>CSS <div class="skill"><div class="skill-bar" style="width:100%">100%</div></div></li>
+    <li>JavaScript <div class="skill"><div class="skill-bar" style="width:100%">100%</div></div></li>
+    <li>Mining Principles <div class="skill"><div class="skill-bar" style="width:85%">85%</div></div></li>
+    <li>Problem Solving <div class="skill"><div class="skill-bar" style="width:90%">90%</div></div></li>
+    <li>Innovation & Research <div class="skill"><div class="skill-bar" style="width:95%">95%</div></div></li>
+  </ul>
 
-  <footer>
-    <p>© 2026 Engineer Jemal Abrahim</p>
-  </footer>
+  <h2>Completed Projects</h2>
+  <ul>
+    <li>Personal Portfolio Website (this site)</li>
+    <li>Simple Calculator (HTML + JS)</li>
+    <li>Mini Quiz App (JavaScript)</li>
+  </ul>
 
-  <script src="script.js"></script>
+  <h2>Future Projects</h2>
+  <ul>
+    <li>Mining Automation System – Improving efficiency and safety</li>
+    <li>Smart Mineral Mapping App – Interactive geological maps</li>
+    <li>Eco-Friendly Mining Initiative – Sustainable mining projects</li>
+    <li>AI-Driven Mining Data Analysis – Optimizing operations with AI</li>
+  </ul>
+
+  <h2>Education</h2>
+  <p>BSc Student in Mining Engineering<br>Addis Ababa Science and Technology University (AASTU)</p>
+
+  <h2>Languages</h2>
+  <ul>
+    <li>English – Fluent</li>
+    <li>Afaan Oromo – Native</li>
+  </ul>
+
+  <h2>Hobbies & Interests</h2>
+  <ul>
+    <li>Technology and innovation</li>
+    <li>Problem-solving & critical thinking</li>
+    <li>Reading engineering & self-development books</li>
+    <li>Learning programming & web development</li>
+  </ul>
+
+  <!-- Download Button -->
+  <a href="files/Jemal_Elite_CV.pdf" download>
+    <button style="padding:10px 20px; background:#0066cc; color:#fff; border:none; border-radius:8px; margin-top:20px; cursor:pointer;">Download PDF CV</button>
+  </a>
+
+</div>
+
+<script>
+// Animate skill bars
+window.addEventListener("load", () => {
+  const bars = document.querySelectorAll(".skill-bar");
+  bars.forEach(bar => {
+    const width = bar.style.width;
+    bar.style.width = "0%";
+    setTimeout(()=>{ bar.style.width = width; }, 500);
+  });
+});
+</script>
+
 </body>
 </html>
